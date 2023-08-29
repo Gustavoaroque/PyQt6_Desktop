@@ -1,0 +1,23 @@
+--$START  c:\Users\Programador_4\Documents\Programs\PyQt\first_test\app.py
+import sys
+
+from PyQt6.QtCore import QSize, Qt
+from PyQt6.QtWidgets import QApplication, QMainWindow, QPushButton, QWidget, QLineEdit,QTextEdit,QVBoxLayout
+from PyQt6.QtGui import QIcon
+
+class MyApp(QWidget):
+    def __init__(self):
+        super().__init__()
+        self.setWindowTitle('hello app')
+        self.resize(800,500)
+
+
+app = QApplication(sys.argv)
+
+window = MyApp()
+window.show()
+
+
+app.exec()
+
+--$END  c:\Users\Programador_4\Documents\Programs\PyQt\first_test\app.py

@@ -1,0 +1,1 @@
+c:\Users\Programador_4\Documents\Programs\PyQt\first_test\app.py:1:7:: syntax error
